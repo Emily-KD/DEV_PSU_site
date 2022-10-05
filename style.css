@@ -15,18 +15,18 @@ section {
 }
 
 h1 {
-	font-size: 3rem;
+	font-size: 5rem;
 	line-height: 2;
 	font-family: 'Klee One', cursive;
 	font-weight: bold;
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: 2.2rem;
 }
 
 p {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 
 img {
@@ -44,6 +44,17 @@ a {
 a:hover {
 	color: #b3b3b3;
 }
+
+form {
+	line-height: 2;
+	font-size: 1.25rem;
+}
+
+i {
+	font-size: 1.75rem;
+	margin: 0 10px 10px 10px;
+}
+
 
 /* Navbar*/
 
@@ -76,13 +87,17 @@ nav ul li {
 
 /* Home Section */
 
-.home {
-	background-color: #486352;
-}
-
 .home div {
 	transform: translateY(64px);
 	margin: 5%;
+}
+
+.background-image {
+	border: 0px;
+	width: 100%;
+	height: 110%;
+	object-fit: cover;
+	position: absolute;
 }
 
 /*About Section*/
@@ -93,4 +108,52 @@ nav ul li {
 
 .about div {
 	margin: 8%;
+}
+
+
+/* Activities Section */
+
+.activities {
+	display: block;
+	background-color: #486352;
+	padding: 50px 0 100px 0;
+	text-align: center;
+}
+
+.activities-container {
+	display: flex;
+	margin: 0 8%;
+	justify-content: space-between;
+}
+
+.activities-container p {
+	padding: 0 8%;
+}
+
+.activities-container img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+}
+
+
+/* Contact Section */
+
+.contact {
+	justify-content: center;
+}
+
+.contact div {
+	margin: 5%;
+}
+
+/* Footer Section */
+
+footer {
+	height: 125px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	padding-top: 25px;
+	text-align: center;
 }
